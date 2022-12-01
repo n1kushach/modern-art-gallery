@@ -1,0 +1,72 @@
+.header-right {
+  max-height: 100vh;
+  right: 1%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header-left header-left header-img-right header-img-right header-img-right"
+    "img-23-row img-23-row img-row2col2 img-row2col2 img-row2col2"
+    "img-23-row img-23-row row3col2 row3col2 row3col2"
+    "img-23-row img-23-row row3col2 row3col2 row3col2";
+    
+  width: 56rem;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.row1col1 {
+  grid-area: header-left;
+}
+.row1col2 {
+  grid-area: header-img-right;
+}
+
+.row23col1 {
+  grid-area: img-23-row;
+}
+
+.row2col2 {
+  grid-area: img-row2col2;
+}
+
+.row3col2 {
+  grid-area: row3col2;
+}
+
+.text-top {
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: rgba(21, 21, 21, 1);
+  line-height: 4rem;
+}
+
+.p-top {
+  font-size: 1.375rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: rgba(68, 68, 68, 1);
+}
+
+.text-bottom {
+  color: white;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 4rem;
+}
+
+.p-bottom {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+.row3col2 {
+  background: black;
+}
+
+.gastile {
+  padding-left: 1rem;
+}

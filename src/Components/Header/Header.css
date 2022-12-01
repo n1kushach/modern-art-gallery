@@ -1,0 +1,49 @@
+@import "//src/App.css";
+
+.h-50rem {
+  height: 50rem;
+}
+.img-left {
+  width: 28.125rem;
+}
+
+.img-mid {
+  max-height: 100%;
+}
+
+h1 {
+  font-size: var(--heading-xl);
+}
+
+.button {
+  background: var(--black);
+}
+
+.button h2 {
+  font-weight: 800;
+}
+
+.button-right {
+  background: var(--orange);
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 1px 1px 0;
+  display: inline-block;
+  padding: 5px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.dark-grey {
+  color: rgba(68, 68, 68, 1);
+}
+
+.top-custom {
+  top: 23.3%;
+}
+
